@@ -7,6 +7,7 @@ namespace ListasIndexadas_SAEG
         static void Main(string[] args)
         {
             Console.Title = "Listas Indexadas";
+            
             Lista lista = new Lista();
             for (int i = 0; i < 5; i++)
             {
@@ -17,7 +18,5 @@ namespace ListasIndexadas_SAEG
             lista.DesplegarLista();
             lista.EliminarUltimoNodo();
             lista.DesplegarLista();
-
-        }
     }
 }
